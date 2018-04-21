@@ -1,0 +1,138 @@
+{
+  "OrdererOrgs": [
+    {
+      "Name": "Orderer",
+      "Domain": "example.com",
+      "EnableNodeOUs": false,
+      "CA": {
+        "Hostname": "ca",
+        "CommonName": "ca.example.com",
+        "Country": "",
+        "Province": "",
+        "Locality": "",
+        "OrganizationalUnit": "",
+        "StreetAddress": "",
+        "PostalCode": "",
+        "SANS": [
+          "ca.example.com",
+          "ca"
+        ]
+      },
+      "Template": {
+        "Count": 0,
+        "Start": 0,
+        "Hostname": "",
+        "SANS": null
+      },
+      "Specs": [
+        {
+          "Hostname": "orderer",
+          "CommonName": "orderer.example.com",
+          "Country": "",
+          "Province": "",
+          "Locality": "",
+          "OrganizationalUnit": "",
+          "StreetAddress": "",
+          "PostalCode": "",
+          "SANS": [
+            "orderer.example.com",
+            "orderer"
+          ]
+        }
+      ],
+      "Users": {
+        "Count": 0
+      }
+    }
+  ],
+  "PeerOrgs": [
+    {
+      "Name": "Org1",
+      "Domain": "org1.example.com",
+      "EnableNodeOUs": false,
+      "CA": {
+        "Hostname": "ca",
+        "CommonName": "ca.org1.example.com",
+        "Country": "",
+        "Province": "",
+        "Locality": "",
+        "OrganizationalUnit": "",
+        "StreetAddress": "",
+        "PostalCode": "",
+        "SANS": [
+          "ca.org1.example.com",
+          "ca"
+        ]
+      },
+      "Template": {
+        "Count": 1,
+        "Start": 0,
+        "Hostname": "",
+        "SANS": null
+      },
+      "Specs": [
+        {
+          "Hostname": "peer0",
+          "CommonName": "peer0.org1.example.com",
+          "Country": "",
+          "Province": "",
+          "Locality": "",
+          "OrganizationalUnit": "",
+          "StreetAddress": "",
+          "PostalCode": "",
+          "SANS": [
+            "peer0.org1.example.com",
+            "peer0"
+          ]
+        }
+      ],
+      "Users": {
+        "Count": 1
+      }
+    },
+    {
+      "Name": "Org2",
+      "Domain": "org2.example.com",
+      "EnableNodeOUs": false,
+      "CA": {
+        "Hostname": "ca",
+        "CommonName": "ca.org2.example.com",
+        "Country": "",
+        "Province": "",
+        "Locality": "",
+        "OrganizationalUnit": "",
+        "StreetAddress": "",
+        "PostalCode": "",
+        "SANS": [
+          "ca.org2.example.com",
+          "ca"
+        ]
+      },
+      "Template": {
+        "Count": 1,
+        "Start": 0,
+        "Hostname": "",
+        "SANS": null
+      },
+      "Specs": [
+        {
+          "Hostname": "peer0",
+          "CommonName": "peer0.org2.example.com",
+          "Country": "",
+          "Province": "",
+          "Locality": "",
+          "OrganizationalUnit": "",
+          "StreetAddress": "",
+          "PostalCode": "",
+          "SANS": [
+            "peer0.org2.example.com",
+            "peer0"
+          ]
+        }
+      ],
+      "Users": {
+        "Count": 1
+      }
+    }
+  ]
+}
